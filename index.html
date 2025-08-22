@@ -1,110 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTMLQns</title>
-    <link rel="stylesheet" href="style.cs">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTMLQns</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Header -->
+  <div class="site-header">
     <h1>Welcome to HTMLQns</h1>
     <p>This is my first HTML page in the HTMLQns project.</p>
-</body>
-</html>
+  </div>
 
-<!--Header-->
-<div class="site-nav">
-    <h1>walcome to HTMLQns project</h1>
-    </div>
-<!--Navigation-->
-<div class="site-nav">
-    <a href="index.html"><Home>/a<><li>
-    <a href="about.html"><About>/a<><li>
-    <a href="contact.html"><Contact>/a<><li>
-    </ul>
-</nav>
-</div>
-<!--Main Content-->
-<div class="site-main">
-    <h2>sample table</h2>
+  <!-- Navigation -->
+  <div class="site-nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="site-main">
+    <h2>Sample Table</h2>
     <table>
+      <thead>
         <tr>
-            <th>simon</th>
-            <th>john</th>
-            <th>peter</th>
-        </thead>
-        </tbody>
+          <th>Name</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
         <tr>
-            <td>mary</td>
-            <td>85</td>
+          <td>Mary</td>
+          <td>85</td>
         </tr>
         <tr>
-            <td>jane</td>
-            <td>92</td>
-            </tr>
+          <td>Jane</td>
+          <td>92</td>
+        </tr>
         <tr>
-            <td>samson</td>
-            <td>78</td>
-            </tr>
-            </tbody>
-            </table>
-            </div>
-            <!--Footer-->
-            <div class="site-footer">
-                <p>&copy; 2024 HTMLQns project</p>
-                </div>
+          <td>Samson</td>
+          <td>78</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Footer -->
+  <div class="site-footer">
+    <p>&copy; 2024 HTMLQns Project</p>
+  </div>
+
 </body>
 </html>
-class {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* General reset */
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
 }
+
+/* Header & Footer */
 .site-header, .site-footer {
-    background-color: #35424a;
-    color: #ffffff
-    text-align: center;
-    padding: 10px 0;
+  background-color: #35424a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
 }
+
+/* Navigation */
 .site-nav {
-    background-color: #e8491d;
-    color: #ffffff;
-    padding: 10px 0;
-    text-align: center;
+  background-color: #e8491d;
+  padding: 10px 0;
+  text-align: center;
 }
+
 .site-nav a {
-    color: #ffffff;
-    margin: 0 15px;
-    text-decoration: none;
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
 }
+
 .site-nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
+/* Main Content */
 .site-main {
-    margin: 20px 0
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
 }
+
+/* Table */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
 }
+
 table, th, td {
-    border: 1px solid #dddddd;
+  border: 1px solid #dddddd;
 }
+
 th, td {
-    padding: 8px;
-    text-align: left;
+  padding: 8px;
+  text-align: left;
 }
+
 th {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
